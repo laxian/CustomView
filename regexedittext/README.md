@@ -43,7 +43,6 @@
         app:regex="@string/emoji_regex"
         android:hint="deny emoji"
         app:mode="deny"/>
-<<<<<<< HEAD
 ```
 
 ```
