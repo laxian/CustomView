@@ -1,5 +1,5 @@
 
-package com.zhouweixian.customstyle;
+package com.zhouweixian.regexedittext;
 
 import android.os.Bundle;
 import android.app.Activity;

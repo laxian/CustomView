@@ -1,4 +1,4 @@
-package com.zhouweixian.customstyle;
+package com.zhouweixian.regexedittext;
 
 import android.content.Context;
 import android.content.res.TypedArray;

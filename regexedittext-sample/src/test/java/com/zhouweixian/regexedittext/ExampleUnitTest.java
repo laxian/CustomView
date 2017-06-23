@@ -1,4 +1,4 @@
-package com.zhouweixian.guest;
+package com.zhouweixian.regexedittext;
 
 import org.junit.Test;
 

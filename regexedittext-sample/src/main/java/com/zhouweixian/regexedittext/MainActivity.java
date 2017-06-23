@@ -1,15 +1,12 @@
-package com.zhouweixian.guest;
+package com.zhouweixian.regexedittext;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
-import android.view.View;
-import android.widget.Button;
 
-public class MainActivity extends Activity implements View.OnClickListener {
 
-    private Button bt_hotfix;
+public class MainActivity extends Activity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,17 +23,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
     private void initView() {
-        bt_hotfix = (Button) findViewById(R.id.bt_hotfix);
-
-        bt_hotfix.setOnClickListener(this);
     }
 
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.bt_hotfix:
-                startActivity(new Intent(this, HotFixActivity.class));
-                break;
-        }
-    }
 }

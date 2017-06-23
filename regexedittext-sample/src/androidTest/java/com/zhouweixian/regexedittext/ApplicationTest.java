@@ -1,4 +1,4 @@
-package com.zhouweixian.guest;
+package com.zhouweixian.regexedittext;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

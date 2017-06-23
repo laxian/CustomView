@@ -1,1 +1,1 @@
-include ':custom-style'
+include ':custom-style', ':regexedittext', ':regexedittext-sample'

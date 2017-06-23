@@ -1,9 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+# RegexEditText
+
+使用正则表达式,限制输入内容
+
+* 原理:
+1. 分为两种过滤模式: allow模式和deny模式. allow模式下,正则表达式代表可以输入的字符.反之,deny模式下正则代表禁止输入的字符
+2. 根据不同过滤模式, 结合正则表达式, 通过addTextChangedListener(),去掉不符合要求的字符. 
+
+* 使用方法:
 
 
     <com.etiantian.regexedittext.RegexEditText
@@ -37,6 +40,3 @@
         app:regex="@string/emoji_regex"
         android:hint="deny emoji"
         app:mode="deny"/>
-
-
-</LinearLayout>
