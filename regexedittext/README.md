@@ -8,7 +8,7 @@
 
 * 使用方法:
 
-
+```
     <com.etiantian.regexedittext.RegexEditText
         android:id="@+id/et1"
         android:layout_width="match_parent"
@@ -16,7 +16,8 @@
         app:regex="@string/en_regex"
         android:hint="allow a-zA-Z"
         app:mode="allow"/>
-
+        
+    
     <com.etiantian.regexedittext.RegexEditText
         android:id="@+id/et2"
         android:layout_width="match_parent"
@@ -24,7 +25,8 @@
         app:regex="@string/en_di_regex"
         android:hint="deny a-zA-Z0-9"
         app:mode="deny"/>
-
+        
+    
     <com.etiantian.regexedittext.RegexEditText
         android:id="@+id/et3"
         android:layout_width="match_parent"
@@ -32,7 +34,8 @@
         app:regex="@string/cn_regex"
         android:hint="allow 汉字"
         app:mode="allow"/>
-
+        
+    
     <com.etiantian.regexedittext.RegexEditText
         android:id="@+id/et4"
         android:layout_width="match_parent"
@@ -40,3 +43,4 @@
         app:regex="@string/emoji_regex"
         android:hint="deny emoji"
         app:mode="deny"/>
+```
