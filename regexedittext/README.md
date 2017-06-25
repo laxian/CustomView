@@ -30,7 +30,7 @@
         android:id="@+id/et1"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        app:regex="letter"
+        app:regex="letter_lower|letter_upper"
         android:hint="allow a-zA-Z"
         app:mode="allow"/>
 
@@ -38,7 +38,7 @@
         android:id="@+id/et2"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        app:regex="digit|letter"
+        app:regex="digit|letter_lower|letter_upper"
         android:hint="deny a-zA-Z0-9"
         app:mode="deny"/>
 
@@ -66,4 +66,14 @@
         app:custom_regex="[0-9a-f]"
         android:hint="0123456789abcdef"
         app:mode="allow"/>
+
+    <com.etiantian.regexedittext.RegexEditText
+        android:id="@+id/et6"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:regex="custom_regex"
+        app:custom_regex="[a-zA-Z0-9@._-]"
+        android:hint="a-zA-Z0-9@._-"
+        app:mode="allow"/>
+
 ```
