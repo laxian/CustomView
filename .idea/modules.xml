@@ -3,8 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CustomView.iml" filepath="$PROJECT_DIR$/CustomView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomView.iml" filepath="$PROJECT_DIR$/CustomView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-style/custom-style.iml" filepath="$PROJECT_DIR$/custom-style/custom-style.iml" />
       <module fileurl="file://$PROJECT_DIR$/custom-style/custom-style.iml" filepath="$PROJECT_DIR$/custom-style/custom-style.iml" />
       <module fileurl="file://$PROJECT_DIR$/regexedittext/regexedittext.iml" filepath="$PROJECT_DIR$/regexedittext/regexedittext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/regexedittext/regexedittext.iml" filepath="$PROJECT_DIR$/regexedittext/regexedittext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/regexedittext-sample/regexedittext-sample.iml" filepath="$PROJECT_DIR$/regexedittext-sample/regexedittext-sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/regexedittext-sample/regexedittext-sample.iml" filepath="$PROJECT_DIR$/regexedittext-sample/regexedittext-sample.iml" />
     </modules>
   </component>

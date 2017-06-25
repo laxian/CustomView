@@ -2,10 +2,18 @@
 <resources>
 
     <declare-styleable name="RegexEditText">
-        <attr name="regex" format="string|reference"/>
+        <attr name="custom_regex" format="string|reference" />
+        <attr name="regex" format="integer">
+            <flag name="digit" value="1"/>
+            <flag name="letter_lower" value="2"/>
+            <flag name="letter_upper" value="4"/>
+            <flag name="ch" value="8"/>
+            <flag name="emoji" value="16"/>
+            <flag name="custom_regex" value="32"/>
+        </attr>
         <attr name="mode" format="enum">
-            <enum name="deny" value="0"/>
-            <enum name="allow" value="1"/>
+            <enum name="deny" value="0" />
+            <enum name="allow" value="1" />
         </attr>
     </declare-styleable>
 
